@@ -3,3 +3,4 @@ kind: Repository
 name: repo2026
 spec:
   public: true
+renameTo: repo2027
