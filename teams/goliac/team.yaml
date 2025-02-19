@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Team
+name: goliac
+spec:
+  owners:
+    - nzin
+    - nicolas.zin
