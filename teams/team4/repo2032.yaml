@@ -3,3 +3,7 @@ kind: Repository
 name: repo2032
 spec:
   public: true
+  branch_protections:
+    - pattern: main
+      requires_commit_signatures: true
+
