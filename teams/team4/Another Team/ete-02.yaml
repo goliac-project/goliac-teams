@@ -2,5 +2,4 @@ apiVersion: v1
 kind: Repository
 name: ete-02
 spec:
-  public: true
   visibility: public
