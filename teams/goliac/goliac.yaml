@@ -3,3 +3,4 @@ kind: Repository
 name: goliac
 spec:
   public: true
+  visibility: public
