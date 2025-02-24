@@ -3,3 +3,4 @@ kind: Repository
 name: repo1
 spec:
   public: true
+  visibility: public
