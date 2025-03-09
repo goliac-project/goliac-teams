@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: Repository
-name: repo126
-spec:
-  visibility: private
-  default_branch: main
