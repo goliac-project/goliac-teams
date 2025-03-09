@@ -1,0 +1,5 @@
+apiVersion: ""
+kind: ""
+name: repo123
+spec:
+  visibility: private
