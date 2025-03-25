@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ForcemergeWorkflow
+name: standard
+spec:
+  repositories:
+    - .*
+  acls:
+    allowed:
+      - team4
+  steps:
+    - name: jira
+      properties:
+        jira_space: foobar
+

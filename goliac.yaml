@@ -15,3 +15,6 @@ destructive_operations:
 
 usersync:
   plugin: noop
+
+forcemerge_workflows:
+- standard
