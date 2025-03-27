@@ -12,5 +12,5 @@ spec:
   steps:
     - name: jira
       properties:
-        jira_space: foobar
+        jira_project: SRE
 
