@@ -10,7 +10,7 @@ spec:
     allowed:
       - team4
   steps:
-    - name: jira
+    - name: jira_ticket_creation
       properties:
         jira_project: SRE
 
