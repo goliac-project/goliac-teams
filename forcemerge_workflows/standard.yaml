@@ -12,5 +12,5 @@ spec:
   steps:
     - name: jira_ticket_creation
       properties:
-        jira_project: SRE
+        project_key: SRE
 
