@@ -3,6 +3,7 @@ kind: Workflow
 name: standard
 spec:
   description: Geneal breaking glass PR merge workflow
+  workflow_type: forcemerge
   repositories:
     allowed:
       - .*

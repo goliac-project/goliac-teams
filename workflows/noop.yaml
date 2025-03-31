@@ -3,6 +3,7 @@ kind: Workflow
 name: noop
 spec:
   description: Test workflow
+  workflow_type: noop
   acls:
     allowed:
       - team4
