@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Workflow
+name: standard
+spec:
+  description: Geneal breaking glass PR merge workflow
+  repositories:
+    allowed:
+      - .*
+  acls:
+    allowed:
+      - team4
+  steps:
+    - name: jira_ticket_creation
+      properties:
+        project_key: SRE
+
