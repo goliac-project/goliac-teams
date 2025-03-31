@@ -18,3 +18,4 @@ usersync:
 
 forcemerge_workflows:
 - standard
+- noop
