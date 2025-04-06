@@ -1,6 +1,7 @@
 # DO NOT MODIFY THIS FILE MANUALLY
 * @goliac-project/admin
 /teams/admin/* @goliac-project/admin-goliac-owners @goliac-project/admin
+/teams/team3/* @goliac-project/team3-goliac-owners @goliac-project/admin
 /teams/team4/* @goliac-project/team4-goliac-owners @goliac-project/admin
 /teams/été/* @goliac-project/ete-goliac-owners @goliac-project/admin
 /teams/goliac/* @goliac-project/goliac-goliac-owners @goliac-project/admin
