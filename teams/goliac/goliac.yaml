@@ -3,3 +3,11 @@ kind: Repository
 name: goliac
 spec:
   visibility: public
+  rulesets:
+    - enforcement: active
+      rules:
+        - ruletype: deletion
+        - ruletype: non_fast_forward
+        - ruletype: pull_request
+      name: main
+
