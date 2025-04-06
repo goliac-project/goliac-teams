@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Team
+name: team3
+spec:
+  owners:
+    - nzin
+    - nicolas.zin
