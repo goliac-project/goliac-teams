@@ -5,6 +5,9 @@ spec:
   visibility: public
   rulesets:
     - enforcement: active
+      conditions:
+        include:
+          - ~DEFAULT_BRANCH
       rules:
         - ruletype: deletion
         - ruletype: non_fast_forward
