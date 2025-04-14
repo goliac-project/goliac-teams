@@ -13,4 +13,5 @@ spec:
         - ruletype: non_fast_forward
         - ruletype: pull_request
       name: main
-
+  environments:
+    - name: github-pages
