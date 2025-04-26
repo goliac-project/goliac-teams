@@ -2,14 +2,15 @@ apiVersion: v1
 kind: Ruleset
 name: default
 spec:
-  enforcement: evaluate
-  bypassapps:
-    - appname: goliac-project-app
-      mode: always
-  conditions:
-    include: 
-      - "~DEFAULT_BRANCH"
-  rules:
-    - ruletype: pull_request
-      parameters:
-        requiredApprovingReviewCount: 1
+  ruleset:
+    enforcement: evaluate
+    bypassapps:
+      - appname: goliac-project-app
+        mode: always
+    conditions:
+      include: 
+        - "~DEFAULT_BRANCH"
+    rules:
+      - ruletype: pull_request
+        parameters:
+          requiredApprovingReviewCount: 1

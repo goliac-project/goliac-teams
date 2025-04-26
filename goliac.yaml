@@ -2,8 +2,7 @@ admin_team: admin
 
 enable_rulesets: true
 rulesets:
-  - pattern: .*
-    ruleset: default
+  - default
 
 max_changesets: 50
 
