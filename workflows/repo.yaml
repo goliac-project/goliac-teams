@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Workflow
+name: repo
+spec:
+  description: Geneal breaking glass PR merge workflow
+  workflow_type: forcemerge
+  repositories:
+    allowed:
+      - .*
+  acls:
+    allowed:
+      - ~GOLIAC_REPOSITORY_APPROVERS
+  steps:
+    - name: jira_ticket_creation
+      properties:
+        project_key: SRE
+
