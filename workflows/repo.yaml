@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Workflow
 name: repo
 spec:
-  description: Geneal breaking glass PR merge workflow
+  description: Geneal breaking glass PR merge workflow with repo ACL
   workflow_type: forcemerge
   repositories:
     allowed:
