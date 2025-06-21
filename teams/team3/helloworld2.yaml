@@ -4,3 +4,4 @@ name: helloworld2
 forkFrom: arun-gupta/docker-kubernetes-hello-world
 spec:
   visibility: private
+  autolinks: []
